@@ -12,14 +12,14 @@
 
 .PARAMETER SearchScope
   Optional. Determines the search scope of what type of user you would like to include in the inactive user search. Options available are:
-   - All                        : Default option. All user types including all standard users, service accounts and never logged on accounts.
-   - OnlyInactiveUsers          : Only standard user accounts. This option excludes service accounts and never logged on accounts.
-   - OnlyServiceAccounts        : Only server accounts. This option excludes standard user accounts and never logged on accounts.
-   - OnlyNeverLoggedOn          : Only never logged on accounts. This option excludes standard user accounts and service accounts.
-   - AllExceptServiceAccounts   : All user account types excluding service accounts.
-   - AllExceptNeverLoggedOn     : All user account types excluding never logged on accounts.
+    - All                        : Default option. All user types including all standard users, service accounts and never logged on accounts.
+    - OnlyInactiveUsers          : Only standard user accounts. This option excludes service accounts and never logged on accounts.
+    - OnlyServiceAccounts        : Only server accounts. This option excludes standard user accounts and never logged on accounts.
+    - OnlyNeverLoggedOn          : Only never logged on accounts. This option excludes standard user accounts and service accounts.
+    - AllExceptServiceAccounts   : All user account types excluding service accounts.
+    - AllExceptNeverLoggedOn     : All user account types excluding never logged on accounts.
 
-   Note: If not specified, the default search scope is All (i.e. all user accounts, service accounts and never logged on accounts).
+    Note: If not specified, the default search scope is All (i.e. all user accounts, service accounts and never logged on accounts).
 
 .PARAMETER DaysInactive
   Optional. The number of days a user account hasn't logged into the domain for in order to classify it as inactive. The default option is 90

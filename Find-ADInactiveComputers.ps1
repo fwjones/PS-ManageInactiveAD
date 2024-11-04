@@ -12,11 +12,11 @@
 
 .PARAMETER SearchScope
   Optional. Determines the search scope of what type of computer object you would like to include in the inactive computers search. Options available are:
-   - All                        : Default option. All computer including never logged on computer objects.
-   - OnlyInactiveComputers      : Only inactive computers. These are computers that have logged on in the past but have not logged on since DaysInactive.
-   - OnlyNeverLoggedOn          : Only never logged on objects. This option excludes computers that have logged on before.
+    - All                        : Default option. All computer including never logged on computer objects.
+    - OnlyInactiveComputers      : Only inactive computers. These are computers that have logged on in the past but have not logged on since DaysInactive.
+    - OnlyNeverLoggedOn          : Only never logged on objects. This option excludes computers that have logged on before.
 
-   Note: If not specified, the default search scope is All (i.e. all inactive and never logged on computer objects).
+    Note: If not specified, the default search scope is All (i.e. all inactive and never logged on computer objects).
 
 .PARAMETER DaysInactive
   Optional. The number of days a computer hasn't logged into the domain for in order to classify it as inactive. The default option is 90
